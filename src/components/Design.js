@@ -27,7 +27,7 @@ const Design = ({design}) => {
                 : 
                 (
                     <div className="d-flex py-2 justify-content-around align-items-center" style={{background: "#000" }}>
-                        <a href={design.url} target='_blank' className="btn btn-secondary btn btn-sm">Ir a figma</a>
+                        <a href={design.url} target='_blank' rel="noreferrer" className="btn btn-secondary btn btn-sm">Ir a figma</a>
                         <Image 
                             src={design.image}
                             width={25}

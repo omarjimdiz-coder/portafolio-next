@@ -1,6 +1,3 @@
-
-import yt from '../../public/yt.png';
-import github from '../../public/github.png';
 import Image from 'next/image';
 
 
@@ -14,20 +11,24 @@ const Footer = () => {
                 href='https://www.youtube.com/@Identados'
                 target='_blank'
                 className='icon-mobile'
+                rel="noreferrer"
             >
                 <Image 
-                    src={yt}
+                    src="/static/yt.png"
                     width={30}
+                    height={30}
                     alt='youtube'
                 />
             </a>
             <a 
                 href='https://github.com/omarjimdiz-coder' 
                 target='_blank'
+                rel="noreferrer"
             >
                 <Image 
-                    src={github}
+                    src="/static/github.png"
                     width={30}
+                    height={30}
                     alt='girhub'
                     className='icon-mobile'
                 />

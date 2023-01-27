@@ -2,27 +2,25 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Layout from '@/components/Layout'
 
-import mypic from '../../public/Captura.PNG';
-import project from '../../public/project.png';
-import project2 from '../../public/project2.png';
-import project6 from '../../public/project6.png';
-import project61 from '../../public/proejct61.png';
-import project3 from '../../public/project3.png';
-import project4 from '../../public/proejct4.png';
-import project5 from '../../public/project5.png';
-import js from '../../public/javascript.svg';
-import react from '../../public/react.svg';
-import node from '../../public/nodejs.svg';
-import next from '../../public/next.svg';
-import html from '../../public/html.svg';
-import ux1 from '../../public/ux1.png'
-import ux2 from '../../public/ux2.png'
-import ux4 from '../../public/ux4.PNG'
-import ux5 from '../../public/ux5.PNG'
-import ux6 from '../../public/ux6.PNG'
-import ux7 from '../../public/ux7.PNG'
-import figma from '../../public/figma.png';
-
+import project from '../../public/static/project.png';
+import project2 from '../../public/static/project2.png';
+import project6 from '../../public/static/project6.png';
+import project61 from '../../public/static/proejct61.png';
+import project3 from '../../public/static/project3.png';
+import project4 from '../../public/static/proejct4.png';
+import project5 from '../../public/static/project5.png';
+import js from '../../public/static/javascript.svg';
+import react from '../../public/static/react.svg';
+import node from '../../public/static/nodejs.svg';
+import next from '../../public/static/next.svg';
+import html from '../../public/static/html.svg';
+import ux1 from '../../public/static/ux1.png'
+import ux2 from '../../public/static/ux2.png'
+import ux4 from '../../public/static/ux4.png'
+import ux5 from '../../public/static/ux5.png'
+import ux6 from '../../public/static/ux6.png'
+import ux7 from '../../public/static/ux7.png'
+import figma from '../../public/static/figma.png';
 
 import Projects from '@/components/Projects';
 import Design from '@/components/Design';
@@ -147,9 +145,10 @@ export default function Home() {
           <div className="row g-0">
             <div className="col-md-4">
               <Image 
-                src={mypic} 
+                src='/static/Captura.png' 
                 className="img-fluid rounded-start" 
-                alt="My pic" 
+                alt="My pic"
+                width={400} 
                 height={350}
                 />
             </div>

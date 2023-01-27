@@ -27,7 +27,7 @@ const Projects = ({card}) => {
                 : 
                 (
                     <div className="d-flex py-2 justify-content-around align-items-center" style={{background: "#000" }}>
-                        <a href={card.url} target='_blank' className="btn btn-secondary btn btn-sm">Ir al sitio</a>
+                        <a href={card.url} target='_blank' rel="noreferrer" className="btn btn-secondary btn btn-sm">Ir al sitio</a>
                         <Image 
                             src={card.image}
                             width={25}
