@@ -7,12 +7,13 @@ import Image from 'next/image';
 const Footer = () => {
   return (
     <footer className="d-flex justify-content-around py-3">
-        <p className="text-light">© {new Date().getFullYear()} Omar, Inc. All rights reserved.</p>
+        <p className="text-light text-mobile">© {new Date().getFullYear()} Omar, Inc. All rights reserved.</p>
 
         <div className='d-flex gap-2'>
             <a
                 href='https://www.youtube.com/@Identados'
                 target='_blank'
+                className='icon-mobile'
             >
                 <Image 
                     src={yt}
@@ -28,6 +29,7 @@ const Footer = () => {
                     src={github}
                     width={30}
                     alt='girhub'
+                    className='icon-mobile'
                 />
             </a>
         </div>

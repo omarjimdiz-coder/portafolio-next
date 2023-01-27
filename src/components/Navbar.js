@@ -18,20 +18,6 @@ const Navbar = () => {
 					aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-					<ul className="navbar-nav ms-auto">
-                        <li className="nav-item">
-                            <Link className="nav-link text-white" href="/videos">
-                                Videos
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link text-white" href="/github">
-                                Github
-                            </Link>
-                        </li>
-					</ul>
-				</div>
 			</div>
 		</nav>
 	);

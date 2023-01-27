@@ -17,12 +17,14 @@ body{
     100% { opacity: 0.25; }
   }
 
-  .effect{
-    background-color: #3d3c27;
-    background-image: linear-gradient(45deg, #cbd2d8, #080707);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
+  @media (max-width: 766px) {
+    .mobile{
+      justify-content: center;
+    }
+    .text-mobile{
+      font-size: 15px;
+    }
+    .icon-mobile img{
+      width: 25px;
+    }
   }

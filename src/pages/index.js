@@ -156,7 +156,7 @@ export default function Home() {
             <div className="col-md-8 text-light">
               <div className="card-body">
                 <h1 className="card-title parpadea">Omar Jiménez Díaz</h1>
-                <h2 className="card-text effect">Front-End Developer</h2>
+                <h2 className="card-text">Front-End Developer</h2>
             
                 <p>
                   Bienvenido a mi sitio personal, aquí podras observar mis trabajos como desarrollador,  
@@ -218,7 +218,7 @@ export default function Home() {
                 <div className="progress bg-secondary mt-2">
                     <div 
                       className="progress-bar bg-light text-dark" 
-                      style={{ width: '30%' }}
+                      style={{ width: '50%' }}
                       role="progressbar" 
                       aria-label="Basic example" 
                       aria-valuenow="25" 
@@ -252,7 +252,7 @@ export default function Home() {
           <h4 className='text-secondary'>Proyectos Web</h4>
         </div>
 
-        <div className='d-flex gap-3 align-items-center flex-wrap pt-2 pb-5'>
+        <div className='d-flex gap-3 align-items-center flex-wrap pt-2 pb-5 mobile'>
           {
             projects.map(card => (
               <Projects 
@@ -269,7 +269,7 @@ export default function Home() {
           <h4 className='text-secondary'>UX/UI</h4>
         </div>
 
-        <div className='d-flex gap-3 align-items-center flex-wrap pt-2 pb-5'>
+        <div className='d-flex gap-3 align-items-center flex-wrap pt-2 pb-5 mobile'>
           {
             desings.map(design => (
               <Design 
